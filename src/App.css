@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; 
+  width: 100%;
+}
+
+body {
+  background: url('/src/assets/fondo.png') no-repeat center center fixed; 
+  background-size: cover; 
+}
+
+.carta-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  padding: 20px; 
+  color: white; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.carta-container > * {
+  margin: 10px; 
+}

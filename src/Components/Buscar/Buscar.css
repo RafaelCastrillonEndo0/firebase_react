@@ -1,0 +1,9 @@
+
+.MuiTextField-root {
+    transition: border-color 0.3s ease-in-out;
+    border-radius: 12px; 
+}
+
+.MuiOutlinedInput-root:hover {
+    border-color: #FFD700; 
+}
