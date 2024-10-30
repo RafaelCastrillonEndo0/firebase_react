@@ -1,2 +1,2 @@
 #INSTALAR CARPETA DE NODE MODULES
-#CON -> npm install
+CON -> npm install
